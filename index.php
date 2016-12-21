@@ -53,7 +53,7 @@
         <div class="w3l">
             <div class="text">
             </div>
-            <h1>Welcome <strong><?php echo $USER; ?></strong></h1>
+            <h1>Welcome <strong><?php echo get_current_user(); ?></strong></h1>
             <div class="image">
                 <img src="images/smile.png">
             </div>
